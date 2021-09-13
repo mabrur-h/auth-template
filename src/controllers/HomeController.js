@@ -5,8 +5,8 @@ export default class HomeController {
         try {
             response.status(200).json({
                 ok: true,
-                appName: "auth-template",
-                version: "0.0.1",
+                appName: "YUSCMS - edited version",
+                version: "0.0.2",
                 documentation: "/",
             });
         } catch (error) {
