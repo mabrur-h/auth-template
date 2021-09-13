@@ -1,0 +1,38 @@
+{
+  "name": "foytun_backend",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "pm2 start server.js --name foytun",
+    "stop": "pm2 stop foytun",
+    "restart": "pm2 restart foytun"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixeruz/foytun-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pixeruz/foytun-backend/issues"
+  },
+  "homepage": "https://github.com/pixeruz/foytun-backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "random-number": "^0.0.9"
+  }
+}
